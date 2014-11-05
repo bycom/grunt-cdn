@@ -5,7 +5,7 @@ module.exports = {
       rgx: new RegExp(/(?:src)=['"](?!\w*?:?\/\/)([^'"\{]+)['"].*\/?>/i)
     },
     {
-      splitters: ['<link '],
+      splitters: ['<link ', '<a '],
       rgx: new RegExp(/(?:href)=['"](?!\w*?:?\/\/)([^'"\{]+)['"].*\/?>/i)
     },
     {
